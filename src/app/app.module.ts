@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 //import { AngularFireModule } from '@angularfire2';
 //import { AngularFireDatabaseModule } from '@angularfire2/database';
 
@@ -36,6 +37,7 @@ import { LoginComponent } from './Components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    NgbModule.forRoot()
     //AngularFireModule.initializeApp(environment.firebase),
     //AngularFireDatabaseModule
   ],
