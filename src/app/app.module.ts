@@ -15,6 +15,7 @@ import { OrderSuccessComponent } from './Components/order-success/order-success.
 import { MyOrdersComponent } from './Components/my-orders/my-orders.component';
 import { AdminProductsComponent } from './Components/Admin/admin-products/admin-products.component';
 import { AdminOrdersComponent } from './Components/Admin/admin-orders/admin-orders.component';
+import { LoginComponent } from './Components/login/login.component';
 //import { environment } from '../environments/environment';
 
 @NgModule({
@@ -28,7 +29,8 @@ import { AdminOrdersComponent } from './Components/Admin/admin-orders/admin-orde
     OrderSuccessComponent,
     MyOrdersComponent,
     AdminProductsComponent,
-    AdminOrdersComponent
+    AdminOrdersComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
