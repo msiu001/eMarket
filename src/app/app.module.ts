@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavbarBootstrapComponent } from './Components/navbar-bootstrap/navbar-bootstrap.component';
 //import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarBootstrapComponent
   ],
   imports: [
     BrowserModule,
