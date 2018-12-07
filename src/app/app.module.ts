@@ -19,6 +19,7 @@ import { AdminProductsComponent } from './Components/Admin/admin-products/admin-
 import { AdminOrdersComponent } from './Components/Admin/admin-orders/admin-orders.component';
 import { LoginComponent } from './Components/login/login.component';
 import { environment } from '../environments/environment';
+import { AuthService } from './auth.service';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,7 @@ import { environment } from '../environments/environment';
     AngularFireDatabaseModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [ AuthService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
